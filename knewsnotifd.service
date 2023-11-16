@@ -1,0 +1,8 @@
+[Unit]
+Description=Kernel news RSS feed notifier daemon for Discord
+
+[Service]
+ExecStart=/usr/bin/knewsnotifd
+
+[Install]
+WantedBy=multi-user.target
